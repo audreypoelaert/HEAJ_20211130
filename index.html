@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ma plus jolie intégration</title>
+    <title>Chasseurs</title>
     <style>
+
+        body{
+            background-color: brown;
+        }
         h1{
-            color: burlywood;
+            color: green;
             display:block;
             text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
@@ -17,12 +21,23 @@
           display: flex;
           justify-content: space-around;  
         }
+
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
     </style>
 </head>
 <body>
-    <h1>Mon beau casor</h1>
+    <h1>Chasseurs</h1>
     <div class="container">
-        <img src="https://wwf.ca/wp-content/uploads/2021/04/Beaver-2-%C2%A9-Sarah-Pietrkiewicz-1024x892.jpg">
+        <ul class="gallery">
+            <li><img src="https://thumbs.dreamstime.com/b/dessin-anim%C3%A9-de-garde-forestier-de-stationnement-13218435.jpg"></li>
+            <li><img src="https://cdn.w600.comps.canstockphoto.fr/chasseur-dessin-anim%C3%A9-triste-clipart-vecteur_csp25102008.jpg"></li>
+            <li><img src="https://comps.gograph.com/dessin-anim%C3%A9-chasseur-fusil_gg76563040.jpg"></li>
+            <li><img src="https://cdn.w600.comps.canstockphoto.fr/effray%C3%A9-chasseur-dessin-anim%C3%A9-clipart-vecteur_csp25102001.jpg"></li>
+        </ul>
     </div>
 </body>
 </html>
